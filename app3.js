@@ -1,0 +1,5 @@
+const os = require('os')
+const user = os.freemem()
+const up = os.cpus()
+console.log(user)
+console.log(up)
